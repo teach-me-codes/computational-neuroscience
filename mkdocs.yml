@@ -1,0 +1,82 @@
+site_name: Computational Neuroscience
+
+extra_javascript:
+  - mathjax-config.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - codehilite:
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: manni
+
+theme:
+  name: 'material'
+  highlightjs: true
+  hljs_languages: [python]
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  navigation_depth: 4
+  titles_only: false
+  sticky_navigation: true
+  collapse_navigation: true
+
+extra_css:
+  - extra.css
+
+extra:
+  analytics:
+    provider: google
+    property: UA-156178967-1
+
+
+
+
+nav:
+- Home: index.md
+- Introduction to Computational Neuroscience: introduction_to_computational_neuroscience.md
+- Neural Encoding: neural_encoding.md
+- Neural Decoding: neural_decoding.md
+- Artificial Neural Networks: artificial_neural_networks.md
+- Spiking Neural Networks: spiking_neural_networks.md
+- Hebbian Learning: hebbian_learning.md
+- Spike-Timing-Dependent Plasticity: spike_timing-dependent_plasticity.md
+- Hodgkin-Huxley Model: hodgkin_huxley_model.md
+- Integrate-and-Fire Models: integrate_and_fire_models.md
+- FitzHugh-Nagumo Model: fitzhugh_nagumo_model.md
+- Izhikevich Model: izhikevich_model.md
+- Oscillatory Dynamics: oscillatory_dynamics.md
+- Small-World Networks: small_world_networks.md
+- Scale-Free Networks: scale_free_networks.md
+- Neuronal Models: neuronal_models.md
+- Synaptic Models: synaptic_models.md
+- Network Models: network_models.md
+- Long-Term Potentiation: long_term_potentiation.md
+- Long-Term Depression: long_term_depression.md
+- Reinforcement Learning: reinforcement_learning.md
+- Visual System: visual_system.md
+- Auditory System: auditory_system.md
+- Somatosensory System: somatosensory_system.md
+- Motor Control: motor_control.md
+- Brain-Machine Interfaces: brain_machine_interfaces.md
+- Attention: attention.md
+- Memory: memory.md
+- Decision Making: decision_making.md
+- Language Processing: language_processing.md
+- Emotion: emotion.md
+- Neurodegenerative Diseases: neurodegenerative_diseases.md
+- Psychiatric Disorders: psychiatric_disorders.md
+- Epilepsy: epilepsy.md
+- Electrophysiological Recording: electrophysiological_recording.md
+- Neuroimaging: neuroimaging.md
+- Computational Modeling: computational_modeling.md
+- Data Analysis Methods: data_analysis_methods.md
+- Neural Prosthetics: neural_prosthetics.md
+- Neuroinformatics: neuroinformatics.md
+- Neuromorphic Engineering: neuromorphic_engineering.md
+- Brain-Computer Interfaces: brain_computer_interfaces.md
+

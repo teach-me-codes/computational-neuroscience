@@ -1,2 +1,2 @@
-# computational-neuroscience
-Computational Neuroscience
+
+### How to Machine Learning - by TEACH ME CODES
