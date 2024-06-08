@@ -44,7 +44,7 @@ nav:
 - Artificial Neural Networks: artificial_neural_networks.md
 - Spiking Neural Networks: spiking_neural_networks.md
 - Hebbian Learning: hebbian_learning.md
-- Spike-Timing-Dependent Plasticity: spike_timing-dependent_plasticity.md
+- Spike-Timing-Dependent Plasticity: spike_timing_dependent_plasticity.md
 - Hodgkin-Huxley Model: hodgkin_huxley_model.md
 - Integrate-and-Fire Models: integrate_and_fire_models.md
 - FitzHugh-Nagumo Model: fitzhugh_nagumo_model.md
